@@ -67,6 +67,12 @@
     --heading-text:#e0eaf3;
     --primary-clr:#161417;
 
+/******** FONT SIZES ********/
+
+--font-title-main: 2.4rem;
+--font-title-sub: 1.8rem;  
+--font-title-para: 1.4rem; 
+
 /******** MARGIN AND PADDING ********/
 
     --margin-main: 2.2em;
@@ -84,8 +90,12 @@ body{
 .header{
     background-color: var(--primary-clr);
     color: var(--heading-text);
-    font-family: 'cooper_hewittbold';
+    font-family: 'cooper_hewittbold', 'sans-serif'; /* NOT EVERY COMPUTER HAS THIS TYPE OF FONT */
     padding: var(--padding-layout);
+}
+
+.main-title title{
+    font-size: ;
 }
 
 .header img{
