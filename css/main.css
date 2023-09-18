@@ -149,10 +149,17 @@ body{
     font-size: var(--font-title-sub);
     font-family: 'cooper_hewittbold', 'sans-serif';
 }
+.guide-menu{
+list-style: square;
+}
 
 .work-guide-text{
     text-align: center;
     font-family: 'cooper_hewittbold', 'sans-serif';
     padding: .6em;
+}
 
+.guide-list{
+    padding-bottom: 1.2em;
+    line-height: 1.4;
 }
