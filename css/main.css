@@ -62,8 +62,17 @@
     box-sizing: border-box;
 }
 
+:root{
+    --text-clr:#202020;
+    --primary-clr:#161417;
+}
+
 img{
     max-width: 100%;
 }
 
 /********** HEADING AND NAVBAR **********/
+
+.header{
+    background-color: ;
+}
