@@ -71,10 +71,10 @@
     --hover-link:#00fffb;
 
 /******** FONT SIZES ********/
-
+/******** MOBILE ********/
     --font-title-main: 3rem;
     --font-title-sub: 1.8rem;  
-    --font-title-para: 1.2rem; 
+    --font-title-para: .6rem; 
 
 /******** MARGIN AND PADDING ********/
 
@@ -99,6 +99,12 @@ body{
 
 .header img{
     max-width: 80%;
+}
+
+.context-text{
+    text-align: center;
+    font-family: 'cooper_hewittlight', 'sans-serif';
+    font-size: var(--font-title-para);
 }
 
 .navbar{
