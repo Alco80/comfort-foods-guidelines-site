@@ -67,6 +67,11 @@
     --primary-clr:#161417;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 img{
     max-width: 100%;
 }
@@ -74,5 +79,5 @@ img{
 /********** HEADING AND NAVBAR **********/
 
 .header{
-    background-color: ;
+    background-color: var(--primary-clr) ;
 }
