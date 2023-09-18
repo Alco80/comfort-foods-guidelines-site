@@ -69,6 +69,7 @@
     --heading-text:#e0eaf3;
     --primary-clr:#161417;
     --hover-link:#00fffb;
+    --img-bg:#787878;
 
 /******** FONT SIZES ********/
 
@@ -141,8 +142,12 @@ body{
 
 .main-img{
     background-image:url(../img/beautiful-day-have-meal-together.jpg);
+    background-color: var(--img-bg);
+    background-blend-mode: multiply;
+    padding: var(--padding-layout);
 }
 
 .hero-text{
-
+    color: var(--heading-text);
+    margin: 0
 }
