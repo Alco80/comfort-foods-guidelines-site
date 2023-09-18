@@ -79,11 +79,6 @@
     --font-title-para: 1.2rem; 
     --font-context: .6em;
 
-/******** MARGIN AND PADDING ********/
-
-    --margin-main: 2.2em;
-    --padding-layout: 1.6em;
-    --padding-top: 1.2em;
 }
 
 body{
@@ -98,11 +93,12 @@ body{
     background-color: var(--primary-clr);
     color: var(--heading-text);
     font-family: 'cooper_hewittbold', 'sans-serif'; /* NOT EVERY COMPUTER HAS THIS TYPE OF FONT */
-    padding: var(--padding-layout);
+    padding: 1.2em;
 }
 
 .header img{
     max-width: 80%;
+    text-align: center;
 }
 
 .context-text{
@@ -144,7 +140,7 @@ body{
     background-image:url(../img/beautiful-day-have-meal-together.jpg);
     background-color: var(--img-bg);
     background-blend-mode: multiply;
-    padding: var(--padding-layout);
+    padding: 1.2em;
 }
 
 .hero-text{
@@ -152,4 +148,11 @@ body{
     margin: 0;
     font-size: var(--font-title-sub);
     font-family: 'cooper_hewittbold', 'sans-serif';
+}
+
+.work-guide-text{
+    text-align: center;
+    font-family: 'cooper_hewittbold', 'sans-serif';
+    padding: .6em;
+
 }
