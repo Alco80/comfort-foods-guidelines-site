@@ -123,4 +123,5 @@ body{
 .nav__link:hover{
     color:var(--hover-link);
     text-decoration: underline;
+    transition: 250ms ease-in-out;
 }
