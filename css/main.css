@@ -69,7 +69,7 @@
     --heading-text:#e0eaf3;
     --primary-clr:#161417;
     --hover-link:#00fffb;
-    --img-bg:#787878;
+    --img-bg:#474747;
 
 /******** FONT SIZES ********/
 
@@ -149,5 +149,7 @@ body{
 
 .hero-text{
     color: var(--heading-text);
-    margin: 0
+    margin: 0;
+    font-size: var(--font-title-sub);
+    font-family: 'cooper_hewittbold', 'sans-serif';
 }
