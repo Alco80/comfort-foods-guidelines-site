@@ -64,7 +64,12 @@
 
 :root{
     --text-clr:#202020;
+    --heading-text:#e0eaf3;
     --primary-clr:#161417;
+
+    /******** MARGIN AND PADDING ********/
+    --margin-main: 2.2em;
+    --padding-layout: 1.6em;
 }
 
 body{
@@ -73,11 +78,14 @@ body{
 }
 
 img{
-    max-width: 100%;
+    max-width: 80%;
 }
 
 /********** HEADING AND NAVBAR **********/
 
 .header{
-    background-color: var(--primary-clr) ;
+    background-color: var(--primary-clr);
+    color: var(--heading-text);
+    font-family: 'cooper_hewittbold';
+    padding: var(--padding-layout);
 }
