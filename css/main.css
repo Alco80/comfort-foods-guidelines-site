@@ -68,12 +68,13 @@
     --text-clr:#202020;
     --heading-text:#e0eaf3;
     --primary-clr:#161417;
+    --hover-link:#00fffb;
 
 /******** FONT SIZES ********/
 
     --font-title-main: 3rem;
     --font-title-sub: 1.8rem;  
-    --font-title-para: 1.4rem; 
+    --font-title-para: 1.2rem; 
 
 /******** MARGIN AND PADDING ********/
 
@@ -104,4 +105,22 @@ body{
     display: block;
     text-align: center;
     border-bottom: 1px solid var(--primary-clr);
+}
+
+.nav__menu{
+    list-style: none;
+}
+
+.nav__list{
+    font-size: var(--font-title-para);
+    margin-bottom: .6em;
+}
+
+.nav__link{
+    text-decoration: none;
+}
+
+.nav__link:hover{
+    color:var(--hover-link);
+    text-decoration: underline;
 }
