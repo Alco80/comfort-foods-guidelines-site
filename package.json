@@ -1,0 +1,12 @@
+{
+  "name": "comfort-foods-guidelines-site",
+  "version": "1.0.0",
+  "description": "This website is based on Comfort Foods. It is for the employees to read the work guidelines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Workplace guidelines for Comfort Foods"],
+  "author": "Alicia C",
+  "license": "ISC"
+}
