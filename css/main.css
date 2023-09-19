@@ -128,7 +128,8 @@ body{
     text-decoration: none;
 }
 
-.nav__link:hover{
+.nav__link:hover,
+.para-link:hover{
     color:var(--hover-link);
     text-decoration: underline;
     transition: 250ms ease-in-out;
