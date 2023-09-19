@@ -169,3 +169,11 @@ list-style: square;
     text-align: center;
     text-decoration: underline;
 }
+
+.shift-times{
+    margin: 1.4em;
+}
+
+.bold{
+    font-family: 'cooper_hewittbold';
+}
