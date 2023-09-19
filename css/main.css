@@ -164,3 +164,8 @@ list-style: square;
     line-height: 1.4;
     width: 90%;
 }
+
+.title-text{
+    text-align: center;
+    text-decoration: underline;
+}
