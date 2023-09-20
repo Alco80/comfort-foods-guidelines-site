@@ -178,3 +178,12 @@ list-style: square;
 .bold{
     font-family: 'cooper_hewittbold';
 }
+
+.shift-time{
+    text-align: center;
+}
+
+.shift-menu-title{
+    font-size: .8rem;
+    font-family: 'cooper_hewittbold', 'sans-serif';
+}
