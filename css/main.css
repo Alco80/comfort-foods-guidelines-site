@@ -81,6 +81,12 @@
 
 }
 
+
+html{
+    scroll-behavior: smooth;
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -219,13 +225,18 @@ list-style: square;
 
 @media screen and (min-width:576px){
     
+
+    .container{
+        margin: 3em;
+    }
+
     .header{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-self: center;
     }
-    
+
     .header img{
         max-width: 60%;
         margin: auto;
@@ -234,4 +245,59 @@ list-style: square;
     .main-title{
         text-align: center;
     }
+
+    .navbar{
+        margin: 0 2em;
+    }
+
+    .nav__menu{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hero-text{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .work-guide-text{
+       font-size: 1.4rem;
+    }
+
+    .shift-menu-title{
+        font-size: 1.2rem;
+    }
+
+    .guide-para,
+.guide-list{
+    font-size: 1.4rem;
 }
+}
+
+@media screen and (min-width:768px){
+    .header{
+        display: grid;
+        grid-template-columns: auto;
+    }
+.header img{
+    max-width:50%;
+}
+   .nav__list{
+    justify-content: space-between;
+   }
+}
+
+
+@media screen and (min-width:1280px){
+    
+    .header img{
+        max-width:70%;
+    }
+    }
+
+    @media screen and (min-width:1536px){
+    
+        .header img{
+            max-width:30%;
+        }
+        }
