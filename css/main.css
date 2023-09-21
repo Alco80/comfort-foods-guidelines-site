@@ -220,6 +220,12 @@ list-style: square;
     color: #0011ff;
 }
 
+.footer{
+    text-align: center;
+    margin-top: 1.3em;
+    margin-bottom: 2em;
+}
+
 
 /* || MEDIA QUERIES */ 
 
